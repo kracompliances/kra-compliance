@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KRA Compliance Services | eTIMS Setup & Tax Support Kenya</title>
+    <meta name="description" content="Fast KRA eTIMS setup, Nil Returns filing, and Rental Income Tax help in Nairobi. Our team gets you compliant in 30 minutes. Avoid KES 1M penalties.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "LocalBusiness",
+      "name": "KRA Compliance Services Kenya",
+      "telephone": "+254768696410",
+      "email": "support@kracompliance.co.ke",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Nairobi",
+        "addressCountry": "KE"
+      },
+      "priceRange": "KES 1500-4999",
+      "areaServed": "Nairobi, Kenya",
+      "description": "Professional KRA eTIMS setup, Nil Returns filing, and Rental Income Tax assistance. Mobile service across Nairobi."
+    }
+    </script>
+    <style>
+        /* Package-specific enhancements */
+        .packages {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(330px, 1fr));
+            gap: 45px;
+            margin-top: 80px;
+            perspective: 1000px;
+        }
+        
+        .package {
+            background: var(--bg-card);
+            border-radius: 26px;
+            overflow: hidden;
+            box-shadow: var(--shadow);
+            transition: all 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+            border: 2px solid var(--border);
+            opacity: 0;
+            position: relative;
+        }
+        
+        .package.starter {
+            animation: floatSlow 6s ease-in-out infinite;
+            border-top: 5px solid #3b82f6;
+        }
+        
+        .package.business {
+            animation: floatSlow 6s ease-in-out infinite 1s;
+            border-top: 5px solid var(--accent);
+            transform: scale(1.06);
+            z-index: 2;
+        }
+        
+        .package.landlord {
+            animation: floatSlow 6s ease-in-out infinite 2s;
+            border-top: 5px solid #16a34a;
+        }
+        
+        @keyframes floatSlow {
+            0%, 100% { transform: translateY(0px); }
+            50% { transform: translateY(-12px); }
+        }
+        
+        .package.business {
+            animation: floatSlowBusiness 6s ease-in-out infinite 1s;
+        }
+        
+        @keyframes floatSlowBusiness {
+            0%, 100% { transform: scale(1.06) translateY(0px); }
+            50% { transform: scale(1.06) translateY(-12px); }
+        }
+        
+        .package:hover { 
+            transform: translateY(-20px) rotateX(5deg); 
+            box-shadow: 0 30px 40px -10px rgba(0,0,0,0.2);
+            border-color: var(--primary);
+        }
+        
+        .package.business:hover {
+            transform: scale(1.06) translateY(-20px) rotateX(5deg);
+        }
+        
+        .package-popular::before {
+            content: 'MOST POPULAR';
+            position: absolute;
+            top: 22px;
+            right: -38px;
+            background: var(--accent);
+            color: var(--primary);
+            padding: 6px 45px;
+            font-size: 0.8rem;
+            font-weight: 800;
+            transform: rotate(45deg);
+            font-family: 'Poppins', sans-serif;
+            z-index: 3;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.15);
+        }
+        
+        .package-icon {
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+            display: block;
+            animation: pulse 2s ease-in-out infinite;
+        }
+        
+        @keyframes pulse {
+            0%, 100% { transform: scale(1); }
+            50% { transform: scale(1.1); }
+        }
+    </style>
+</head>
+<body>
+    <div class="ticker-wrap">
+        <div class="ticker">Our team has assisted 100+ businesses this month • KRA filing deadline: 31st January • Avoid penalties — Contact us at 0768 696 410</div>
+    </div>
+
+    <nav>
+        <div class="container">
+            <div class="logo">KRA Compliance</div>
+            <div class="nav-links">
+                <a href="#services">Services</a>
+                <a href="#packages">Pricing</a>
+                <a href="#faq">FAQ</a>
+                <a href="#about">About</a>
+                <a href="#contact">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark mode">
+        <span id="themeIcon">🌙</span>
+        <span id="themeText">Dark</span>
+    </button>
+
+    <header>
+        <div class="container content">
+            <h1>KRA Compliance Made Simple</h1>
+            <p>Our team helps you avoid KES 1Million fine. We handle eTIMS setup, Nil Returns, and Landlord Tax in 30 minutes.</p>
+            
+            <div class="trust-badges">
+                <div class="trust-badge">1000+ Clients Assisted</div>
+                <div class="trust-badge">Official KRA Portals Only</div>
+                <div class="trust-badge">7-Day Support Included</div>
+                <div class="trust-badge">Mobile Service in Nairobi</div>
+            </div>
+
+            <div class="badge-free">7-DAY FREE SUPPORT WITH EVERY SERVICE</div>
+        </div>
+    </header>
+
+    <main>
+        <section class="section">
+            <div class="container">
+                <h2>We Handle KRA Compliance So You Can Focus on Business</h2>
+                <p class="section-sub">No technical jargon or hidden fees. Our team manages the paperwork and training, giving you full compliance quickly and correctly.</p>
+                
+                <div class="before-after">
+                    <div class="ba-card before">
+                        <h3>Before Our Help</h3>
+                        <p>KRA penalty notices<br>Risk of KES 1M fine<br>Confusing tax requirements<br>Clients requesting eTIMS receipts</p>
+                    </div>
+                    <div class="ba-card after">
+                        <h3>After Our Help</h3>
+                        <p>KRA compliance certificate<br>Issue receipts in seconds<br>Clear understanding of requirements<br>Ready for B2B clients</p>
+                    </div>
+                </div>
+
+                <div class="fear-box animate-in">
+                    <h3>⚠️ Current KRA Enforcements to Be Aware Of:</h3>
+                    <p><strong>1. eTIMS is mandatory for all businesses</strong> — The penalty for not issuing eTIMS receipts is up to KES 1,000,000 or 3 years imprisonment. This applies to all sales of goods or services.<br><br>
+                    <strong>2. Nil Returns must still be filed</strong> — Even with no income, all KRA PIN holders must file annual returns. Late filing attracts a KES 2,000 penalty per year.<br><br>
+                    <strong>3. Rental Income must be declared</strong> — KRA is actively matching rental payments to tax records. Undeclared rental income is subject to a 20% penalty plus interest.</p>
+                </div>
+
+                <h2 id="services">Our Services</h2>
+                <div class="services-grid">
+                    <div class="service-card animate-in" style="animation-delay: 0.1s;">
+                        <h3>eTIMS Registration & Training</h3>
+                        <p>We complete your full registration on the official eTIMS portal, add your products or services, provide 1-on-1 training, and supply a simple guide for issuing receipts.</p>
+                    </div>
+                    <div class="service-card animate-in" style="animation-delay: 0.2s;">
+                        <h3>Nil Returns Filing</h3>
+                        <p>We file all outstanding Nil Returns for 2020-2024. You receive confirmation screenshots for your records. We also provide free annual reminders.</p>
+                    </div>
+                    <div class="service-card animate-in" style="animation-delay: 0.3s;">
+                        <h3>Landlord Tax Compliance</h3>
+                        <p>We register you for Rental Income Tax, set up eTIMS for rent collection, and provide a custom tax calculator to ensure you pay the correct 7.5% rate.</p>
+                    </div>
+                    <div class="service-card animate-in" style="animation-delay: 0.4s;">
+                        <h3>B2B Compliance Support</h3>
+                        <p>Many corporate clients now require eTIMS compliance before processing payments. We set you up and provide documentation to help you meet client requirements.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section" style="background:var(--bg-card);">
+            <div class="container">
+                <h2>Why Choose Our Team</h2>
+                <div class="compare-table">
+                    <table>
+                        <tr>
+                            <th>Feature</th>
+                            <th>Cyber Cafe</th>
+                            <th>Traditional Accountant</th>
+                            <th class="you">Our Service</th>
+                        </tr>
+                        <tr>
+                            <td>Cost</td>
+                            <td>KES 5,000+</td>
+                            <td>KES 15,000+</td>
+                            <td class="you">From KES 1,500</td>
+                        </tr>
+                        <tr>
+                            <td>Time Required</td>
+                            <td>2-3 Days Queue</td>
+                            <td>1-2 Weeks Backlog</td>
+                            <td class="you">30 Minutes</td>
+                        </tr>
+                        <tr>
+                            <td>Training Included</td>
+                            <td class="cross">✗</td>
+                            <td class="cross">✗ Extra Fee</td>
+                            <td class="you check">✓ Yes</td>
+                        </tr>
+                        <tr>
+                            <td>Mobile Service</td>
+                            <td class="cross">✗</td>
+                            <td class="cross">✗ Office Only</td>
+                            <td class="you check">✓ We Come To You</td>
+                        </tr>
+                        <tr>
+                            <td>Post-Setup Support</td>
+                            <td class="cross">✗</td>
+                            <td class="cross">✗ Billed Hourly</td>
+                            <td class="you check">✓ 7 Days Free</td>
+                        </tr>
+                        <tr>
+                            <td>Risk of Errors</td>
+                            <td class="cross">✗ High</td>
+                            <td class="cross">✗ Delays Common</td>
+                            <td class="you check">✓ Low</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </section>
+
+        <section class="section">
+            <div class="container">
+                <h2>Client Feedback</h2>
+                <div class="services-grid">
+                    <div class="service-card animate-in">
+                        <p>"The team sorted my eTIMS setup in under 30 minutes. The training was clear and I can now issue receipts myself. Very professional service."<br><strong>— James M., Business Owner, Umoja</strong></p>
+                    </div>
+                    <div class="service-card animate-in">
+                        <p>"I didn't realize I had penalties for missed Nil Returns. They filed 4 years for me and the cost was very reasonable. Highly recommend."<br><strong>— Mary W., Online Retailer</strong></p>
+                    </div>
+                    <div class="service-card animate-in">
+                        <p>"My tenants needed official receipts. The team set up eTIMS for my rental properties and provided a tax calculator. The process was smooth."<br><strong>— Mr. Kimani, Property Owner, Kasarani</strong></p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section" id="packages" style="background: var(--bg-card);">
+            <div class="container">
+                <h2>Service Packages</h2>
+                <p class="section-sub">One-time payment. No monthly fees. All packages include 7-day free support and our compliance guarantee.</p>
+                <div class="guarantee animate-in"><strong>7-Day Support Guarantee:</strong> If KRA has any queries about the work we completed for you within the first 7 days, we will resolve it at no extra cost. Contact us on WhatsApp, 7am - 9pm.</div>
+                <div class="price-anchor"><span>Traditional Accountant: KES 15,000+</span></div>
+                <div class="packages">
+                    <div class="package starter animate-in" style="animation-delay: 0.1s;">
+                        <div class="package-head">
+                            <span class="package-icon">📄</span>
+                            <h3>Starter</h3>
+                            <div class="price">KES 1,500</div>
+                            <span>One-time payment</span>
+                        </div>
+                        <div class="package-body">
+                            <ul>
+                                <li>Nil Returns Filing for 5 Years (2020-2024)</li>
+                                <li>iTax Password Reset & Recovery</li>
+                                <li>KRA Compliance Status Check</li>
+                                <li>Annual Filing Reminder Service</li>
+                                <li>7-Day WhatsApp Support</li>
+                            </ul>
+                            <button class="btn" onclick="selectPackage('Starter Package - KES 1,500')">Select Starter Package</button>
+                        </div>
+                    </div>
+                    <div class="package business package-popular animate-in" style="animation-delay: 0.2s;">
+                        <div class="package-head">
+                            <span class="package-icon">🚀</span>
+                            <h3>Business</h3>
+                            <div class="price">KES 2,999</div>
+                            <span>Most Popular</span>
+                        </div>
+                        <div class="package-body">
+                            <ul>
+                                <li>Complete eTIMS Registration</li>
+                                <li>Setup of Up To 20 Products/Services</li>
+                                <li>1-on-1 System Training Session</li>
+                                <li>Step-by-Step User Guide Provided</li>
+                                <li>Nil Returns Filing Included</li>
+                                <li>B2B Compliance Documentation</li>
+                                <li>7-Day WhatsApp Support</li>
+                            </ul>
+                            <button class="btn btn-accent" onclick="selectPackage('Business Package - KES 2,999')">Select Business Package</button>
+                        </div>
+                    <div class="package landlord animate-in" style="animation-delay: 0.3s;">
+                        <div class="package-head">
+                            <span class="package-icon">🏠</span>
+                            <h3>Landlord</h3>
+                            <div class="price">KES 4,999</div>
+                            <span>Full Compliance</span>
+                        </div>
+                        <div class="package-body">
+                            <ul>
+                                <li>All Features in Business Package</li>
+                                <li>Rental Income Tax Registration</li>
+                                <li>eTIMS Setup for Rent Collection</li>
+                                <li>Custom Rental Tax Calculator</li>
+                                <li>Specific Training for Landlords</li>
+                                <li>Annual Compliance Calendar</li>
+                                <li>14-Day WhatsApp Support</li>
+                            </ul>
+                            <button class="btn" onclick="selectPackage('Landlord Package - KES 4,999')">Select Landlord Package</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section" id="faq">
+            <div class="container">
+                <h2>Frequently Asked Questions</h2>
+                <p class="section-sub">Answers to common questions from business owners and landlords.</p>
+                <div style="max-width: 800px; margin: 0 auto;">
+                    <div class="faq-item"><div class="faq-q">Do I need to file Nil Returns if I had no income?</div><div class="faq-a">Yes. Every person with a KRA PIN must file an annual tax return, even if the income is zero. Failure to file results in a penalty of KES 2,000 per year. Our Starter Package covers this.</div></div>
+                    <div class="faq-item"><div class="faq-q">Is eTIMS required for small businesses?</div><div class="faq-a">Yes. The law requires all businesses supplying goods or services to issue electronic tax invoices through eTIMS. Non-compliance can lead to significant penalties of up to KES 1M.</div></div>
+                    <div class="faq-item"><div class="faq-q">Do you access my KRA account?</div><div class="faq-a">We guide you through the process on the official KRA portals (etims.kra.go.ke and itax.kra.go.ke). You maintain full control of your login credentials. We do not store your passwords.</div></div>
+                    <div class="faq-item"><div class="faq-q">Do you offer services outside Nairobi?</div><div class="faq-a">Yes. Most of our services are provided online via WhatsApp and screen sharing. For clients within Nairobi, we also offer in-person visits by appointment.</div></div>
+                    <div class="faq-item"><div class="faq-q">What are your payment terms?</div><div class="faq-a">Payment is made via M-Pesa or Bank Transfer after the service is completed and you have confirmed your setup is working. This is our guarantee to you.</div></div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section" id="about" style="background:var(--bg-card);">
+            <div class="container">
+                <h2>About Our Team</h2>
+                <div class="about-wrap animate-in">
+                    <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?q=80&w=400&auto=format&fit=crop" alt="Professional team collaborating" class="about-pic">
+                    <div>
+                        <h3>We are KRA Systems Specialists</h3>
+                        <p>Our team was formed after helping numerous business owners navigate complex KRA system changes. We specialize in making compliance fast, simple, and stress-free.</p><br>
+                        <p>We are not accountants. We are technical experts on KRA's eTIMS and iTax portals. Our role is to handle the setup and training so you can operate compliantly without becoming a tax expert yourself.</p><br>
+                        <p><strong>Our Mission:</strong> To ensure every business in Kenya can meet KRA requirements without fear of penalties or confusion.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section" id="contact">
+            <div class="container">
+                <div class="contact-box animate-in">
+                    <h3>Contact Our Team</h3>
+                    <p class="section-sub" style="margin-bottom: 30px;">WhatsApp is the fastest way to reach us. We respond within 5 minutes between 7am - 9pm daily.</p>
+                    <div class="contact-item">📞<a href="https://wa.me/254768696410?text=Hello,%20I%20need%20help%20with%20KRA%20compliance.">0768 696 410 — WhatsApp Us</a></div>
+                    <div class="contact-item"><a href="mailto:support@kracompliance.co.ke">support@kracompliance.co.ke</a></div>
+                    <div class="contact-item">📍 Mobile Service — We Serve All of Nairobi</div>
+                    <div class="map-container">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d255281.1903628152!2d36.70730855937256!3d-1.3031937!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182f1172d84d49a7%3A0xf7cf0254b297924c!2sNairobi!5e0!3m2!1sen!2ske!4v1713798256789!5m2!1sen!2ske" width="100%" height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p><strong>KRA Compliance Services Kenya</strong></p>
+            <p>Professional compliance support for Nairobi businesses since 2023</p>
+            <p style="margin-top:15px; font-size:0.9rem; opacity:0.8;">Disclaimer: We are independent KRA systems specialists, not KRA employees or certified public accountants. For complex tax planning, please consult a CPA.</p>
+            <p style="margin-top:15px;"><a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a></p>
+        </div>
+    </footer>
+
+    <div class="popup-overlay" id="leadPopup">
+        <div class="popup">
+            <span class="popup-close" id="closePopup">×</span>
+            <h3>Free KRA Compliance Checklist</h3>
+            <p>Enter your email to receive a PDF of “5 Common KRA Mistakes to Avoid” plus a free annual reminder for Nil Returns.</p>
+            <input type="email" id="emailInput" placeholder="yourname@gmail.com">
+            <button class="btn btn-accent" id="submitLead">Send Me The Checklist</button>
+            <p style="font-size:0.8rem; margin-top:12px; opacity:0.7;">We respect your privacy. Unsubscribe anytime.</p>
+        </div>
+    </div>
+
+    <a href="https://wa.me/254768696410?text=Hello,%20I%20need%20help%20with%20KRA%20compliance." class="whatsapp-float" aria-label="Chat on WhatsApp">💬</a>
+
+    <div class="sticky-cta">
+        <a href="https://wa.me/254768696410?text=Hello,%20I%20would%20like%20to%20set%20up%20eTIMS." class="btn btn-accent">WhatsApp Us: Get Compliant Now</a>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
